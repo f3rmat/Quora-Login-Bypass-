@@ -5,7 +5,7 @@ var currentlocation = window.location.href;
 var str = "?share=1";
 var flag = 1;
 
-if(currentlocation.indexOf("www.quora.com")!=-1){
+//if(currentlocation.indexOf("www.quora.com")!=-1){
 	//if already logged in, do nothing
 	var generatedSource = new XMLSerializer().serializeToString(document);
 	var str2 = '<span class="expanded">Notifications';
@@ -29,5 +29,5 @@ if(currentlocation.indexOf("www.quora.com")!=-1){
 		}	
 	}
 		
-}
+//}
 
